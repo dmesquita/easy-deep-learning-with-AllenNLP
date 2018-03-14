@@ -3,7 +3,11 @@
 AllenNLP text classification tutorial
 
 # Run the model
-(notebook)
+### Command line
+
+```python run.py experiments/newsgroups_without_cuda.json -s /tmp/your_output_dir_here```
+
+### Colaboratory notebook
 
 ```python
 experiment_parameters = 'https://raw.githubusercontent.com/dmesquita/easy-deep-learning-with-AllenNLP/master/experiments/newsgroups_with_cuda.json'
