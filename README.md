@@ -2,7 +2,6 @@
 
 AllenNLP text classification tutorial
 
-# Run the model
 ### Command line
 
 ```python run.py experiments/newsgroups_without_cuda.json -s /tmp/your_output_dir_here```
