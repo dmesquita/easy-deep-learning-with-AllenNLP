@@ -8,6 +8,7 @@ AllenNLP text classification tutorial
 ```python run.py experiments/newsgroups_without_cuda.json -s /tmp/your_output_dir_here```
 
 ### Colaboratory notebook
+[https://colab.research.google.com/drive/1q3b5HAkcjYsVd6yhrwnxL2ByqGK08jhQ](https://colab.research.google.com/drive/1q3b5HAkcjYsVd6yhrwnxL2ByqGK08jhQ)
 
 ```python
 experiment_parameters = 'https://raw.githubusercontent.com/dmesquita/easy-deep-learning-with-AllenNLP/master/experiments/newsgroups_with_cuda.json'
