@@ -122,7 +122,7 @@ class Fetch20NewsgroupsClassifier(Model):
     @classmethod
     def from_params(cls, vocab: Vocabulary, params: Params) -> 'Fetch20NewsgroupsClassifier':
         embedder_params = params.pop("model_text_field_embedder")
-        model_text_field_embedder = TextFieldEmbedder.from_params(vocab, embedder_params)
+        model_text_field_embedder = TextFieldEmbedder.from_params(embedder_params, vocab=vocab)
         internal_text_encoder = Seq2VecEncoder.from_params(params.pop("internal_text_encoder"))
         classifier_feedforward = FeedForward.from_params(params.pop("classifier_feedforward"))
 
